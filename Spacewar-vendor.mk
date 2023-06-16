@@ -1422,7 +1422,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libqmiextservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiextservices.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib64/libqrtrclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtrclient.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iopd-client.so \

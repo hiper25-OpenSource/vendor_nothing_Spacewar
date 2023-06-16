@@ -753,15 +753,14 @@
         <!--CPU-LLCC BWMON - Set sample_ms 20 -->
         <!--LLCC-DDR BWMON - Set sample_ms 20 -->
         <!--L CPU Min Freq 1324, Max Freq 1804 -->
-        <!--Sched downmigrate/group_downmigrate 40, Upmigrate/group_upmigrate 45 -->
+        <!--Sched downmigrate/downmigrate_prime 10/80, Upmigrate/upmigrate_prime 20/85 -->
         <!--Sched_Prefer_spread 2 -->
-        <!--B CPU Min Freq 940 -->
         <Config
             Id="0x00001337" Enable="true" Timeout="0" Target="yupik"
             Resources="0x40C68100, 0xFFFFFFFA, 0x40C68110, 0xFFFFFFFA, 0x40C68120, 0xFFFFFFFA,
             0x40C68130, 0xFFFFFFFA, 0x4143C100, 940, 0x41440100, 0x5F, 0x4183C000, 0x14, 0x43034000,
-            0x14, 0x40800100, 1324, 0x40804100, 1804, 0x40C58000, 40, 0x40C54000, 45, 0x40C20000, 40,
-            0x40C1C000, 45, 0x40CA8000, 0x2, 0x40800000, 940"/>
+            0x14, 0x40800100, 1324, 0x40804100, 1804, 0x40C20000, 10, 0x40C20200, 80, 0x40C1C000, 20
+            0x40C1C200, 85, 0x40CA8000, 0x2"/>
 
         <!-- same settings for all the qvr power levels intentionally -->
         <!-- qvr level cpu1 gpu1 -->
